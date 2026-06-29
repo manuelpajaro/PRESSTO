@@ -132,7 +132,7 @@ function PLOT(input_path)
         
         figure; hold on;
         
-        % FaceAlpha proporcional a los niveles
+        % FaceAlpha proportional to the levels
         face_alpha = linspace(alpha_min, alpha_max, nlevels);
         
         for i = 1:nlevels
